@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TurtleLinker | Réseau social pour tortues</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<script type="text/javascript">
+		
+		alert("Bienvenue sur le site, cliquez sur ok pour accepter les cookies")
+
+		function follow()
+		{
+		  alert("abonnnement validé !")
+		};
+
+		function nude()
+		{
+		  alert("Nageoire envoyée !")
+		};
+
+	</script>
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<img width="100" src="images/tortue.png"/>
+			<h1>TurtleLinker</h1>
+		</div>
+	</header>
+
+	<!-- Onboarding -->
+	<section id="onboarding">
+		<h3>Rejoignez une communauté de + de 1000 tortues</h3>
+		<p>
+			Une tortue c'est bien
+			En effet ça c'est sympa
+			Car dans la plage elles
+			vont nager
+		</p>
+	</section>
+
+		<section id="articles">
+		<h1>Derniers influenceurs</h1>
+		<ul>
+			<li>
+				<center>
+					<img width="200" src="images/pic1.png">
+					<a >Paulette - 27K followers</a><br>
+					<button onclick="follow()">S'abonner</button>
+					<button onclick="nude()">Envoyer une nageoire</button>
+				</center>
+			</li>
+
+			<li>
+				<center>
+					<img width="200" src="images/pic2.png">
+					<a >Madeleine - 1M followers</a><br>
+					<button onclick="follow()">S'abonner</button>
+					<button onclick="nude()">Envoyer une nageoire</button>
+				</center>
+			</li>
+
+			<li>
+				<center>
+					<img width="200" src="images/pic3.png">
+					<a>Mélanie - 345 followers</a><br>
+					<button onclick="follow()">S'abonner</button>
+					<button onclick="nude()">Envoyer une nageoire</button>
+				</center>
+			</li>
+
+		</ul>
+	</section>
+
+	<hr>
+
+	<!-- inscription -->
+	<section id="signup">
+		<h1>Inscrivez votre tortue</h1>
+
+		<form method="post">
+			<input type="text" name="name" placeholder="Nom de votre tortue (ex: Ermionne)"><br>
+			<input type="password" name="password" placeholder="Mot de passe"><br>
+			<input type="password" name="repassword" placeholder="Confirmer Mot de passe"><br>
+			<button type="submit">Créer le compte</button>
+		</form>
+	</section>
+
+	<hr>
+
+	<footer>
+		<p>&copy; 2020 - TurtleLinker by <a href="http://youtube.com/user/gravenilvectuto" target="_blank">Graven Développement</a></p>
+	</footer>
+
+	
+</body>
+</html> 
