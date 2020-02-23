@@ -1,0 +1,26 @@
+body{
+	background: #777;
+}
+
+header {
+	background: green;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+ul li {
+	width: 20%;
+	margin-top: 20px;
+	background: yellow;
+}
+
+ul li{
+	display: inline-block;
+	margin-right: 80px;
+}
+
+ul li a, img{
+	padding: 10px;
+}
